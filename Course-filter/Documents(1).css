@@ -1,0 +1,242 @@
+.tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width:100%;
+    /* background-color: #004389; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    
+  }
+  
+  .tab-buttons button {
+    padding: 13px 20px;
+    border: none;
+    /* background-color: #f0f0f0; */
+    cursor: pointer;
+    width: 50%;
+    /* border-radius:5px; */
+    background-color: #0042890f;
+    color: black;
+    font-weight: 600;
+    font-family: 'Inter';
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    font-size: 14px;
+    
+
+  }
+  
+  .tab-buttons button.active {
+    background-color: #0172a3;
+    color: #ffffff;
+  }
+  .filescontainer{
+    /* width: 100%; */
+  
+    background-color: #ffffff;
+    font-family: 'Inter';
+    box-shadow: 0px 0px 10px 0px rgba(173, 173, 173, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    
+  }
+  .listscontainer{
+    
+    background-color:#d9d9d91d;
+    margin-top: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 0%; */
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+
+  }
+  .uploadandheading{
+    display: flex;
+    margin-top: 0px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .documentname{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #0172a3;
+  }
+  .documentname1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+  }
+  .coursesname2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: rgb(60, 60, 60);
+    width: 20%;
+    
+
+  }
+  .coursesname3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+    /* padding-right: 10px; */
+    line-height:27px ;
+    color: rgb(95, 95, 95);
+    padding-bottom: 15px;
+    margin-top: -3px;
+
+  }
+  .coureserequired{
+    display: flex;
+    margin-top: 6px;
+    /* background-color: #45a049; */
+    padding-right: 20px;
+    padding-left: 20px;
+    gap:25px;
+    /* width:100%; */
+    /* align-items: start; */
+    align-items:self-start;
+    
+  }
+  .documentuplodedname{
+    padding: 4px;
+    gap: 68px;
+    background-color: #0172a364;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    padding-left: 18px;
+    display: flex;
+    /* gap: ; */
+  }
+  .felxallfiles{
+    display: flex;
+    /* width:100%; */
+
+
+  }
+  input[type='file'] {
+    display: none;
+  }
+  
+  .upload-button {
+    background-color: #0172a3;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: fit-content;
+    font-size: 14px;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+
+  }
+  .icon10{
+  width: 18px; /* Set width for icons */
+  height: 18px; /* Set height for icons */
+  margin-right: 12px;
+  margin-bottom: -2.5px;
+  }
+  /* .upload-button:hover {
+    background-color: #45a049;
+  } */
+  .uplaodedlabel{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    /* width:20%; */
+
+  }
+  .filenamewithdiv {
+    display: flex;
+    /* margin-left:87px ; */
+    /* padding-top: 20px; */
+    padding: 20px;
+    
+  }
+  
+  /* Additional styles for spacing between file names */
+ 
+  /* .file-container {
+    margin-bottom: 10px; 
+  } */
+  .labelnameofulpod{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    /* width: 20%;   */
+  }
+  .labelnameoffile{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+  }
+  .filenamewithdiv{
+    padding-top :4px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+  } 
+  .sticky-button-container {
+    position: sticky;
+    bottom: 0;
+    background-color: #fff; /* Adjust background color as needed */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to provide visual separation */
+    width:100.7%;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: -30px;
+    /* justify-content:space-around ; */
+    text-align: center;
+
+  } 
+  .pay-application-fee-button{
+  background-color: #0172a3;
+  color: #fff;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  height: max-content;
+  border: 1px solid #0172a3;
+/* width: 15%; */
+padding: 10px;
+padding-right: 25px;
+padding-left: 25px;
+font-size: 14px;
+font-weight: bold;
+font-family: 'Inter';
+text-transform: uppercase;
+  }
+  .filenamewithdiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filenamewithdiv > div {
+    margin-right: 7px; /* Set the margin to create the gap */
+  }
